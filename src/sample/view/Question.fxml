@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: #2E3248;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Question">
+    <children>
+        <AnchorPane layoutY="148.0" prefHeight="932.0" prefWidth="1910.0" style="-fx-background-color: fafafa;">
+            <children>
+                <TextField fx:id="LoginField" layoutX="30.0" layoutY="33.0" pickOnBounds="false" prefHeight="39.0" prefWidth="652.0" promptText="1" style="-fx-background-radius: 5;" text="Что такое Java?" />
+                <Button fx:id="EntrButton" layoutX="1601.0" layoutY="868.0" mnemonicParsing="false" onAction="#initializer " prefHeight="39.0" prefWidth="220.0" style="-fx-background-color: #ffd400;" text="Следующий" textFill="WHITE">
+                    <font>
+                        <Font name="Book Antiqua" size="18.0" />
+                    </font>
+                </Button>
+            <CheckBox layoutX="44.0" layoutY="312.0" mnemonicParsing="false" text="а" />
+            <CheckBox layoutX="53.0" layoutY="342.0" mnemonicParsing="false" text="б" />
+            <TextField disable="true" layoutX="109.0" layoutY="105.0" prefHeight="25.0" prefWidth="520.0" text="Вариант а" />
+            <TextField disable="true" layoutX="53.0" layoutY="105.0" prefHeight="25.0" prefWidth="51.0" text="а" />
+            <TextField disable="true" layoutX="109.0" layoutY="149.0" prefHeight="25.0" prefWidth="520.0" text="Вариант б" />
+            <TextField disable="true" layoutX="53.0" layoutY="149.0" prefHeight="25.0" prefWidth="51.0" text="б" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="280.0" layoutY="14.0" text="Java" textAlignment="CENTER" textFill="#f20000">
+            <font>
+                <Font name="Maiandra GD" size="65.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
