@@ -63,7 +63,7 @@ public class Controller {
             showNewScene("/sample/view/Regestration.fxml",EntrButton);
         });
     }
-
+//
     private void loginUser(String loginText, String passwordField) throws SQLException {
         DataBaseConnection dataBaseConnection = new DataBaseConnection();
         User user = new User();
